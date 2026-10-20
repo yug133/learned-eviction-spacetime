@@ -1,0 +1,134 @@
+data/wiki2018_0.001.tr: 1,805,992 requests, 37,675 unique objects (42.1% requested once), 16 days
+  NOTE: day 16 is partial (21% of a day covered); marked in per_day.csv
+  WARNING: cache size 0.001 of uniques = 38 slots (< 100), flag in paper
+  LRU        size 0.001  (     38 slots) run 1: miss ratio 0.7719,     272 ns/request
+  LRU        size 0.001  (     38 slots) run 2: miss ratio 0.7719,     271 ns/request
+  LRU        size 0.001  (     38 slots) run 3: miss ratio 0.7719,     274 ns/request
+  LFU        size 0.001  (     38 slots) run 1: miss ratio 0.6777,     853 ns/request
+  LFU        size 0.001  (     38 slots) run 2: miss ratio 0.6777,     853 ns/request
+  LFU        size 0.001  (     38 slots) run 3: miss ratio 0.6777,     852 ns/request
+  ARC        size 0.001  (     38 slots) run 1: miss ratio 0.6675,     644 ns/request
+  ARC        size 0.001  (     38 slots) run 2: miss ratio 0.6675,     646 ns/request
+  ARC        size 0.001  (     38 slots) run 3: miss ratio 0.6675,     646 ns/request
+  Belady     size 0.001  (     38 slots) run 1: miss ratio 0.5645,     844 ns/request
+  Belady     size 0.001  (     38 slots) run 2: miss ratio 0.5645,     853 ns/request
+  Belady     size 0.001  (     38 slots) run 3: miss ratio 0.5645,     847 ns/request
+  LeCaR      size 0.001  (     38 slots) run 1: miss ratio 0.6815,    1862 ns/request
+  LeCaR      size 0.001  (     38 slots) run 2: miss ratio 0.6816,    1877 ns/request
+  LeCaR      size 0.001  (     38 slots) run 3: miss ratio 0.6818,    1859 ns/request
+  LeCaR      size 0.001  (     38 slots) run 4: miss ratio 0.6811,    1869 ns/request
+  LeCaR      size 0.001  (     38 slots) run 5: miss ratio 0.6819,    1858 ns/request
+  LeCaR-LCS  size 0.001  (     38 slots) run 1: miss ratio 0.7562,    1749 ns/request
+  LeCaR-LCS  size 0.001  (     38 slots) run 2: miss ratio 0.7561,    1739 ns/request
+  LeCaR-LCS  size 0.001  (     38 slots) run 3: miss ratio 0.7563,    1744 ns/request
+  LeCaR-LCS  size 0.001  (     38 slots) run 4: miss ratio 0.7564,    1745 ns/request
+  LeCaR-LCS  size 0.001  (     38 slots) run 5: miss ratio 0.7563,    1740 ns/request
+  LRU        size 0.01   (    377 slots) run 1: miss ratio 0.4774,     225 ns/request
+  LRU        size 0.01   (    377 slots) run 2: miss ratio 0.4774,     226 ns/request
+  LRU        size 0.01   (    377 slots) run 3: miss ratio 0.4774,     226 ns/request
+  LFU        size 0.01   (    377 slots) run 1: miss ratio 0.4071,     789 ns/request
+  LFU        size 0.01   (    377 slots) run 2: miss ratio 0.4071,     792 ns/request
+  LFU        size 0.01   (    377 slots) run 3: miss ratio 0.4071,     791 ns/request
+  ARC        size 0.01   (    377 slots) run 1: miss ratio 0.3953,     476 ns/request
+  ARC        size 0.01   (    377 slots) run 2: miss ratio 0.3953,     475 ns/request
+  ARC        size 0.01   (    377 slots) run 3: miss ratio 0.3953,     475 ns/request
+  Belady     size 0.01   (    377 slots) run 1: miss ratio 0.2818,     797 ns/request
+  Belady     size 0.01   (    377 slots) run 2: miss ratio 0.2818,     798 ns/request
+  Belady     size 0.01   (    377 slots) run 3: miss ratio 0.2818,     800 ns/request
+  LeCaR      size 0.01   (    377 slots) run 1: miss ratio 0.3789,    1758 ns/request
+  LeCaR      size 0.01   (    377 slots) run 2: miss ratio 0.3784,    1773 ns/request
+  LeCaR      size 0.01   (    377 slots) run 3: miss ratio 0.3788,    1811 ns/request
+  LeCaR      size 0.01   (    377 slots) run 4: miss ratio 0.3790,    1797 ns/request
+  LeCaR      size 0.01   (    377 slots) run 5: miss ratio 0.3785,    1772 ns/request
+  LeCaR-LCS  size 0.01   (    377 slots) run 1: miss ratio 0.4711,    1566 ns/request
+  LeCaR-LCS  size 0.01   (    377 slots) run 2: miss ratio 0.4710,    1571 ns/request
+  LeCaR-LCS  size 0.01   (    377 slots) run 3: miss ratio 0.4713,    1556 ns/request
+  LeCaR-LCS  size 0.01   (    377 slots) run 4: miss ratio 0.4712,    1562 ns/request
+  LeCaR-LCS  size 0.01   (    377 slots) run 5: miss ratio 0.4710,    1587 ns/request
+  LRU        size 0.1    (  3,768 slots) run 1: miss ratio 0.1226,     156 ns/request
+  LRU        size 0.1    (  3,768 slots) run 2: miss ratio 0.1226,     156 ns/request
+  LRU        size 0.1    (  3,768 slots) run 3: miss ratio 0.1226,     155 ns/request
+  LFU        size 0.1    (  3,768 slots) run 1: miss ratio 0.1001,     687 ns/request
+  LFU        size 0.1    (  3,768 slots) run 2: miss ratio 0.1001,     708 ns/request
+  LFU        size 0.1    (  3,768 slots) run 3: miss ratio 0.1001,     691 ns/request
+  ARC        size 0.1    (  3,768 slots) run 1: miss ratio 0.1000,     239 ns/request
+  ARC        size 0.1    (  3,768 slots) run 2: miss ratio 0.1000,     240 ns/request
+  ARC        size 0.1    (  3,768 slots) run 3: miss ratio 0.1000,     240 ns/request
+  Belady     size 0.1    (  3,768 slots) run 1: miss ratio 0.0624,     711 ns/request
+  Belady     size 0.1    (  3,768 slots) run 2: miss ratio 0.0624,     711 ns/request
+  Belady     size 0.1    (  3,768 slots) run 3: miss ratio 0.0624,     711 ns/request
+  LeCaR      size 0.1    (  3,768 slots) run 1: miss ratio 0.0929,    1252 ns/request
+  LeCaR      size 0.1    (  3,768 slots) run 2: miss ratio 0.0927,    1252 ns/request
+  LeCaR      size 0.1    (  3,768 slots) run 3: miss ratio 0.0928,    1253 ns/request
+  LeCaR      size 0.1    (  3,768 slots) run 4: miss ratio 0.0928,    1253 ns/request
+  LeCaR      size 0.1    (  3,768 slots) run 5: miss ratio 0.0929,    1259 ns/request
+  LeCaR-LCS  size 0.1    (  3,768 slots) run 1: miss ratio 0.1143,    1124 ns/request
+  LeCaR-LCS  size 0.1    (  3,768 slots) run 2: miss ratio 0.1140,    1117 ns/request
+  LeCaR-LCS  size 0.1    (  3,768 slots) run 3: miss ratio 0.1145,    1112 ns/request
+  LeCaR-LCS  size 0.1    (  3,768 slots) run 4: miss ratio 0.1142,    1113 ns/request
+  LeCaR-LCS  size 0.1    (  3,768 slots) run 5: miss ratio 0.1142,    1117 ns/request
+[PASS] requests per day add up to the total
+[WARN] cache size 0.001: 38 slots >= 100
+[PASS] cache size 0.01: 377 slots >= 100
+[PASS] cache size 0.1: 3768 slots >= 100
+[PASS] LRU size 0.001: repeated runs give identical misses
+[PASS] Belady (1019521) <= LRU (1394054) at size 0.001
+[PASS] LFU size 0.001: repeated runs give identical misses
+[PASS] Belady (1019521) <= LFU (1223902) at size 0.001
+[PASS] ARC size 0.001: repeated runs give identical misses
+[PASS] Belady (1019521) <= ARC (1205472) at size 0.001
+[PASS] Belady size 0.001: repeated runs give identical misses
+[PASS] Belady (1019521) <= LeCaR (1230081) at size 0.001
+[PASS] LeCaR size 0.001 seed 1: eviction counters add up
+[PASS] LeCaR size 0.001 seed 2: eviction counters add up
+[PASS] LeCaR size 0.001 seed 3: eviction counters add up
+[PASS] LeCaR size 0.001 seed 4: eviction counters add up
+[PASS] LeCaR size 0.001 seed 5: eviction counters add up
+[PASS] Belady (1019521) <= LeCaR-LCS (1365476) at size 0.001
+[PASS] LeCaR-LCS size 0.001 seed 1: eviction counters add up
+[PASS] LeCaR-LCS size 0.001 seed 2: eviction counters add up
+[PASS] LeCaR-LCS size 0.001 seed 3: eviction counters add up
+[PASS] LeCaR-LCS size 0.001 seed 4: eviction counters add up
+[PASS] LeCaR-LCS size 0.001 seed 5: eviction counters add up
+[PASS] LRU size 0.01: repeated runs give identical misses
+[PASS] Belady (508890) <= LRU (862189) at size 0.01
+[PASS] LFU size 0.01: repeated runs give identical misses
+[PASS] Belady (508890) <= LFU (735218) at size 0.01
+[PASS] ARC size 0.01: repeated runs give identical misses
+[PASS] Belady (508890) <= ARC (713985) at size 0.01
+[PASS] Belady size 0.01: repeated runs give identical misses
+[PASS] Belady (508890) <= LeCaR (683391) at size 0.01
+[PASS] LeCaR size 0.01 seed 1: eviction counters add up
+[PASS] LeCaR size 0.01 seed 2: eviction counters add up
+[PASS] LeCaR size 0.01 seed 3: eviction counters add up
+[PASS] LeCaR size 0.01 seed 4: eviction counters add up
+[PASS] LeCaR size 0.01 seed 5: eviction counters add up
+[PASS] Belady (508890) <= LeCaR-LCS (850554) at size 0.01
+[PASS] LeCaR-LCS size 0.01 seed 1: eviction counters add up
+[PASS] LeCaR-LCS size 0.01 seed 2: eviction counters add up
+[PASS] LeCaR-LCS size 0.01 seed 3: eviction counters add up
+[PASS] LeCaR-LCS size 0.01 seed 4: eviction counters add up
+[PASS] LeCaR-LCS size 0.01 seed 5: eviction counters add up
+[PASS] LRU size 0.1: repeated runs give identical misses
+[PASS] Belady (112706) <= LRU (221497) at size 0.1
+[PASS] LFU size 0.1: repeated runs give identical misses
+[PASS] Belady (112706) <= LFU (180867) at size 0.1
+[PASS] ARC size 0.1: repeated runs give identical misses
+[PASS] Belady (112706) <= ARC (180625) at size 0.1
+[PASS] Belady size 0.1: repeated runs give identical misses
+[PASS] Belady (112706) <= LeCaR (167497) at size 0.1
+[PASS] LeCaR size 0.1 seed 1: eviction counters add up
+[PASS] LeCaR size 0.1 seed 2: eviction counters add up
+[PASS] LeCaR size 0.1 seed 3: eviction counters add up
+[PASS] LeCaR size 0.1 seed 4: eviction counters add up
+[PASS] LeCaR size 0.1 seed 5: eviction counters add up
+[PASS] Belady (112706) <= LeCaR-LCS (205839) at size 0.1
+[PASS] LeCaR-LCS size 0.1 seed 1: eviction counters add up
+[PASS] LeCaR-LCS size 0.1 seed 2: eviction counters add up
+[PASS] LeCaR-LCS size 0.1 seed 3: eviction counters add up
+[PASS] LeCaR-LCS size 0.1 seed 4: eviction counters add up
+[PASS] LeCaR-LCS size 0.1 seed 5: eviction counters add up
+[PASS] LRU misses do not increase with cache size: [1394054, 862189, 221497]
+[PASS] Belady misses do not increase with cache size: [1019521, 508890, 112706]
+done in 181 s; peak memory without tracemalloc runs 164 MB
+exit status 0

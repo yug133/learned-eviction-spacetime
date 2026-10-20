@@ -1,0 +1,4 @@
+cache_fraction,ranking_seed0,ranking_seed1,same_ranking
+0.001,ARC < LeCaR < LFU < LeCaR-LCS < LRU,ARC < LeCaR < LFU < LeCaR-LCS < LRU,True
+0.01,LeCaR < ARC < LFU < LeCaR-LCS < LRU,LeCaR < ARC < LFU < LeCaR-LCS < LRU,True
+0.1,LeCaR < ARC < LFU < LeCaR-LCS < LRU,LeCaR < ARC < LFU < LeCaR-LCS < LRU,True

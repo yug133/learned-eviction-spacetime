@@ -1,0 +1,30 @@
+data/wiki2018_0.01.tr: 27,375,525 requests, 376,550 unique objects
+  size 0.001  (   377 slots) run 1 scan:    1745 ns/request
+  size 0.001  (   377 slots) run 1 heap:    1942 ns/request
+  size 0.001  (   377 slots) run 2 heap:    1930 ns/request
+  size 0.001  (   377 slots) run 2 scan:    1729 ns/request
+  size 0.001  (   377 slots) run 3 scan:    1814 ns/request
+  size 0.001  (   377 slots) run 3 heap:    1936 ns/request
+  size 0.01   ( 3,766 slots) run 1 scan:    2099 ns/request
+  size 0.01   ( 3,766 slots) run 1 heap:    1855 ns/request
+  size 0.01   ( 3,766 slots) run 2 heap:    1878 ns/request
+  size 0.01   ( 3,766 slots) run 2 scan:    2216 ns/request
+  size 0.01   ( 3,766 slots) run 3 scan:    2231 ns/request
+  size 0.01   ( 3,766 slots) run 3 heap:    1897 ns/request
+  size 0.1    (37,655 slots) run 1 scan:    1635 ns/request
+  size 0.1    (37,655 slots) run 1 heap:    1587 ns/request
+  size 0.1    (37,655 slots) run 2 heap:    1593 ns/request
+  size 0.1    (37,655 slots) run 2 scan:    1657 ns/request
+  size 0.1    (37,655 slots) run 3 scan:    1656 ns/request
+  size 0.1    (37,655 slots) run 3 heap:    1615 ns/request
+
+size    mode  median ns/req                   runs min lookups buckets/req heap ops/req
+0.001   scan           1745     1745   1729   1814     110,002        0.81        0.000
+0.001   heap           1936     1942   1930   1936     110,002        0.00        0.967
+0.01    scan           2216     2099   2216   2231     648,783       41.27        0.000
+0.01    heap           1878     1855   1878   1897     648,783        0.00        1.344
+0.1     scan           1656     1635   1657   1656     255,411       19.24        0.000
+0.1     heap           1593     1587   1593   1615     255,411        0.00        1.199
+
+written to results/wiki_0.01/min_tracking.csv
+exit status 0

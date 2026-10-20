@@ -1,0 +1,66 @@
+[PASS] requests per day add up to the total
+[PASS] LRU reference timing at size 0.001 drifted -0.3% from start to end (timings within this run are comparable if within 5%)
+[PASS] LRU reference timing at size 0.01 drifted +3.6% from start to end (timings within this run are comparable if within 5%)
+[WARN] LRU reference timing at size 0.1 drifted +5.4% from start to end (timings within this run are comparable if within 5%)
+[PASS] cache size 0.001: 377 slots >= 100
+[PASS] cache size 0.01: 3766 slots >= 100
+[PASS] cache size 0.1: 37655 slots >= 100
+[PASS] LRU size 0.001: repeated runs give identical misses
+[PASS] Belady (10981882) <= LRU (15682893) at size 0.001
+[PASS] LFU size 0.001: repeated runs give identical misses
+[PASS] Belady (10981882) <= LFU (14002265) at size 0.001
+[PASS] ARC size 0.001: repeated runs give identical misses
+[PASS] Belady (10981882) <= ARC (13242742) at size 0.001
+[PASS] Belady size 0.001: repeated runs give identical misses
+[PASS] Belady (10981882) <= LeCaR (13496076) at size 0.001
+[PASS] LeCaR size 0.001 seed 1: eviction counters add up
+[PASS] LeCaR size 0.001 seed 2: eviction counters add up
+[PASS] LeCaR size 0.001 seed 3: eviction counters add up
+[PASS] LeCaR size 0.001 seed 4: eviction counters add up
+[PASS] LeCaR size 0.001 seed 5: eviction counters add up
+[PASS] Belady (10981882) <= LeCaR-LCS (15119158) at size 0.001
+[PASS] LeCaR-LCS size 0.001 seed 1: eviction counters add up
+[PASS] LeCaR-LCS size 0.001 seed 2: eviction counters add up
+[PASS] LeCaR-LCS size 0.001 seed 3: eviction counters add up
+[PASS] LeCaR-LCS size 0.001 seed 4: eviction counters add up
+[PASS] LeCaR-LCS size 0.001 seed 5: eviction counters add up
+[PASS] LRU size 0.01: repeated runs give identical misses
+[PASS] Belady (5222418) <= LRU (9028352) at size 0.01
+[PASS] LFU size 0.01: repeated runs give identical misses
+[PASS] Belady (5222418) <= LFU (7715929) at size 0.01
+[PASS] ARC size 0.01: repeated runs give identical misses
+[PASS] Belady (5222418) <= ARC (7339078) at size 0.01
+[PASS] Belady size 0.01: repeated runs give identical misses
+[PASS] Belady (5222418) <= LeCaR (7008528) at size 0.01
+[PASS] LeCaR size 0.01 seed 1: eviction counters add up
+[PASS] LeCaR size 0.01 seed 2: eviction counters add up
+[PASS] LeCaR size 0.01 seed 3: eviction counters add up
+[PASS] LeCaR size 0.01 seed 4: eviction counters add up
+[PASS] LeCaR size 0.01 seed 5: eviction counters add up
+[PASS] Belady (5222418) <= LeCaR-LCS (8929690) at size 0.01
+[PASS] LeCaR-LCS size 0.01 seed 1: eviction counters add up
+[PASS] LeCaR-LCS size 0.01 seed 2: eviction counters add up
+[PASS] LeCaR-LCS size 0.01 seed 3: eviction counters add up
+[PASS] LeCaR-LCS size 0.01 seed 4: eviction counters add up
+[PASS] LeCaR-LCS size 0.01 seed 5: eviction counters add up
+[PASS] LRU size 0.1: repeated runs give identical misses
+[PASS] Belady (1136784) <= LRU (2248937) at size 0.1
+[PASS] LFU size 0.1: repeated runs give identical misses
+[PASS] Belady (1136784) <= LFU (1858442) at size 0.1
+[PASS] ARC size 0.1: repeated runs give identical misses
+[PASS] Belady (1136784) <= ARC (1824744) at size 0.1
+[PASS] Belady size 0.1: repeated runs give identical misses
+[PASS] Belady (1136784) <= LeCaR (1694906) at size 0.1
+[PASS] LeCaR size 0.1 seed 1: eviction counters add up
+[PASS] LeCaR size 0.1 seed 2: eviction counters add up
+[PASS] LeCaR size 0.1 seed 3: eviction counters add up
+[PASS] LeCaR size 0.1 seed 4: eviction counters add up
+[PASS] LeCaR size 0.1 seed 5: eviction counters add up
+[PASS] Belady (1136784) <= LeCaR-LCS (2088520) at size 0.1
+[PASS] LeCaR-LCS size 0.1 seed 1: eviction counters add up
+[PASS] LeCaR-LCS size 0.1 seed 2: eviction counters add up
+[PASS] LeCaR-LCS size 0.1 seed 3: eviction counters add up
+[PASS] LeCaR-LCS size 0.1 seed 4: eviction counters add up
+[PASS] LeCaR-LCS size 0.1 seed 5: eviction counters add up
+[PASS] LRU misses do not increase with cache size: [15682893, 9028352, 2248937]
+[PASS] Belady misses do not increase with cache size: [10981882, 5222418, 1136784]

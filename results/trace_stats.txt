@@ -1,0 +1,36 @@
+=== Full trace ===
+lines read            : 2,800,000,000
+malformed lines       : 0
+total requests        : 2,800,000,000
+unique objects (est.) : 37,655,000  (= 376,550 / 0.01, SHARDS estimate)
+one-hit wonders (est.): 0.4183 of unique objects (from the 0.01 sample)
+first timestamp       : 0
+last timestamp        : 1314452
+span                  : 1,314,452 time units = 15.21 days if seconds
+days (if seconds)     : 16
+
+=== Sample rate 0.01 -> data/wiki2018_0.01.tr ===
+total requests        : 27,375,525
+unique objects        : 376,550
+one-hit wonders       : 157,502 (0.4183 of unique objects)
+top object share      : 0.1509 of requests (id 295, 4,130,033 requests)
+first timestamp       : 0
+last timestamp        : 1314452
+days (if seconds)     : 16
+out-of-order requests : 0
+cache  0.1% of uniques : 376 slots
+cache  1.0% of uniques : 3,765 slots
+cache 10.0% of uniques : 37,655 slots
+
+=== Sample rate 0.001 -> data/wiki2018_0.001.tr ===
+total requests        : 1,805,992
+unique objects        : 37,675
+one-hit wonders       : 15,854 (0.4208 of unique objects)
+top object share      : 0.1245 of requests (id 8715, 224,923 requests)
+first timestamp       : 0
+last timestamp        : 1314451
+days (if seconds)     : 16
+out-of-order requests : 0
+cache  0.1% of uniques : 37 slots  <-- fewer than ~100 slots, flag in paper
+cache  1.0% of uniques : 376 slots
+cache 10.0% of uniques : 3,767 slots

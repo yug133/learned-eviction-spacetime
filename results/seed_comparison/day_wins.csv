@@ -1,0 +1,16 @@
+cache_fraction,policy,days_best_seed0,days_best_seed1,complete_days_seed0,complete_days_seed1
+0.001,LRU,0,0,15,15
+0.001,LFU,0,0,15,15
+0.001,ARC,15,15,15,15
+0.001,LeCaR,0,0,15,15
+0.001,LeCaR-LCS,0,0,15,15
+0.01,LRU,0,0,15,15
+0.01,LFU,0,0,15,15
+0.01,ARC,0,0,15,15
+0.01,LeCaR,15,15,15,15
+0.01,LeCaR-LCS,0,0,15,15
+0.1,LRU,0,0,15,15
+0.1,LFU,0,0,15,15
+0.1,ARC,1,1,15,15
+0.1,LeCaR,14,14,15,15
+0.1,LeCaR-LCS,0,0,15,15

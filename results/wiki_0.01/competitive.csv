@@ -1,0 +1,19 @@
+policy,cache_fraction,capacity,observed_ratio_to_opt,observed_ratio_to_opt_excl_day1,worst_case_bound,bound_source
+LRU,0.001,377,1.428069706084986,1.4277645804805423,k,"k-competitive, Sleator and Tarjan 1985"
+LFU,0.001,377,1.2750332775384037,1.2783392197122028,needs citation,no tight bound stated
+ARC,0.001,377,1.2058718168707332,1.2057281554161237,needs citation,no tight bound stated
+Belady,0.001,377,1.0,1.0,1 (is OPT),"1 (is OPT), Belady 1966"
+LeCaR,0.001,377,1.2292905532949634,1.2292199951892313,no proven bound,no proven bound (learned policy without a fallback)
+LeCaR-LCS,0.001,377,1.3769250662136052,1.376595139237163,no proven bound,no proven bound (learned policy without a fallback)
+LRU,0.01,3766,1.7287685512726096,1.7291556996430777,k,"k-competitive, Sleator and Tarjan 1985"
+LFU,0.01,3766,1.4774629300067517,1.4833949277188785,needs citation,no tight bound stated
+ARC,0.01,3766,1.4053026778017386,1.405418873500393,needs citation,no tight bound stated
+Belady,0.01,3766,1.0,1.0,1 (is OPT),"1 (is OPT), Belady 1966"
+LeCaR,0.01,3766,1.3427231217416913,1.3422091504024158,no proven bound,no proven bound (learned policy without a fallback)
+LeCaR-LCS,0.01,3766,1.7100228668023127,1.710503385349737,no proven bound,no proven bound (learned policy without a fallback)
+LRU,0.1,37655,1.9783327351546116,2.0309019902777616,k,"k-competitive, Sleator and Tarjan 1985"
+LFU,0.1,37655,1.6348242058297795,1.6691119154220087,needs citation,no tight bound stated
+ARC,0.1,37655,1.6051809314698307,1.6374676349734225,needs citation,no tight bound stated
+Belady,0.1,37655,1.0,1.0,1 (is OPT),"1 (is OPT), Belady 1966"
+LeCaR,0.1,37655,1.49142792298273,1.5063137752603892,no proven bound,no proven bound (learned policy without a fallback)
+LeCaR-LCS,0.1,37655,1.8380746034426945,1.8813493229295197,no proven bound,no proven bound (learned policy without a fallback)

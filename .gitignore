@@ -1,0 +1,42 @@
+# --- Trace data: never commit (the trace is public, see README) ---
+data/
+*.tar.gz
+*.tr
+
+# --- Python ---
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# --- LaTeX build files ---
+*.aux
+*.bbl
+*.blg
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+# LaTeX logs only: run logs in results/ document how the results were produced
+paper/*.log
+
+# --- Reference papers (copyrighted PDFs of the surveyed papers) ---
+# Only top-level PDFs: the paper's figures and the result plots are PDFs too.
+/*.pdf
+references/
+papers/
+
+# --- Paper upload bundles (duplicates of paper/) ---
+*.zip
+
+# --- Not published (decided 20 Oct 2026) ---
+# assistant working notes
+CLAUDE.md
+# draft build; publish the LaTeX source and figures only
+paper/paper.pdf
+# pipeline tests on synthetic data (regenerate with experiments/make_synthetic.py + run_all)
+results/synthetic_*
+
+# Kept locally, not published
+paper/
+survey.md

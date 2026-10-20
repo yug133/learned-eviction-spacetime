@@ -1,0 +1,24 @@
+=== Full trace ===
+hash seed             : 1
+lines read            : 2,800,000,000
+malformed lines       : 0
+total requests        : 2,800,000,000
+unique objects (est.) : 37,492,200  (= 374,922 / 0.01, SHARDS estimate)
+one-hit wonders (est.): 0.4190 of unique objects (from the 0.01 sample)
+first timestamp       : 0
+last timestamp        : 1314452
+span                  : 1,314,452 time units = 15.21 days if seconds
+days (if seconds)     : 16
+
+=== Sample rate 0.01 -> data/wiki2018_0.01_seed1.tr ===
+total requests        : 22,115,934
+unique objects        : 374,922
+one-hit wonders       : 157,085 (0.4190 of unique objects)
+top object share      : 0.0396 of requests (id 479, 875,730 requests)
+first timestamp       : 0
+last timestamp        : 1314452
+days (if seconds)     : 16
+out-of-order requests : 0
+cache  0.1% of uniques : 374 slots
+cache  1.0% of uniques : 3,749 slots
+cache 10.0% of uniques : 37,492 slots

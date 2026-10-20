@@ -1,0 +1,114 @@
+{
+  "trace": "data/wiki2018_0.001.tr",
+  "t0": 0,
+  "requests": 1805992,
+  "unique_objects": 37675,
+  "one_hit_wonders": 15854,
+  "one_hit_wonder_fraction": 0.42080955540809556,
+  "days": 16,
+  "requests_per_day": [
+    119097,
+    118966,
+    77949,
+    73688,
+    80038,
+    301967,
+    293655,
+    128565,
+    121732,
+    115407,
+    76893,
+    71509,
+    70616,
+    70159,
+    70342,
+    15409
+  ],
+  "day_coverage": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.21355324074074075
+  ],
+  "partial_days": [
+    16
+  ],
+  "fractions": [
+    0.001,
+    0.01,
+    0.1
+  ],
+  "capacities": {
+    "0.001": 38,
+    "0.01": 377,
+    "0.1": 3768
+  },
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "timing_runs": 3,
+  "policies": [
+    "LRU",
+    "LFU",
+    "ARC",
+    "Belady",
+    "LeCaR",
+    "LeCaR-LCS"
+  ],
+  "space_metric": "python_bytes_per_slot = tracemalloc peak / capacity",
+  "weight_samples_per_run": 517,
+  "python": "3.10.14",
+  "numpy": "1.26.4",
+  "platform": "Linux-6.17.0-41-generic-x86_64-with-glibc2.42",
+  "cpu": "12th Gen Intel(R) Core(TM) i7-12700H",
+  "memory_mb": {
+    "start": {
+      "VmHWM": 34.6328125,
+      "VmRSS": 34.6328125
+    },
+    "after_load": {
+      "VmHWM": 104.94921875,
+      "VmRSS": 76.765625
+    },
+    "after_prepare": {
+      "VmHWM": 163.9609375,
+      "VmRSS": 79.66796875
+    },
+    "after_next_use": {
+      "VmHWM": 163.9609375,
+      "VmRSS": 80.0390625
+    },
+    "after_runs": {
+      "VmHWM": 163.9609375,
+      "VmRSS": 81.4921875
+    },
+    "end": {
+      "VmHWM": 163.9609375,
+      "VmRSS": 81.98046875
+    }
+  },
+  "phases_s": {
+    "load_s": 0.15178680419921875,
+    "prepare_s": 0.17044782638549805,
+    "belady_next_use_s": 0.20228242874145508,
+    "runs_s": 121.4228823184967,
+    "python_bytes_s": 58.607900619506836
+  },
+  "total_s": 180.62459111213684
+}
