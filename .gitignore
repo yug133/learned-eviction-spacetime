@@ -40,3 +40,4 @@ results/synthetic_*
 # Kept locally, not published
 paper/
 survey.md
+results/demo/
